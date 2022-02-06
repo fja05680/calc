@@ -1,5 +1,3 @@
-#from calc import Node
-
 ########################################################################
 # VISITOR - evaluate the math expression using visitor pattern.
 #
