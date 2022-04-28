@@ -12,8 +12,7 @@ class NodeVisitor:
         method = getattr(self, method_name, None)
         if method:
             return method(node)
-        else:
-            self.generic_visit(node)
+        self.generic_visit(node)
 
     def generic_visit(self, node):
 

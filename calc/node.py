@@ -120,4 +120,3 @@ class UMinus(UnaryOp):
 
     def evaluate(self):
         return -1 * self.operandNode.evaluate()
-

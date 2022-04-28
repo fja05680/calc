@@ -95,7 +95,7 @@ class Lexer:
         ''' Returns a list of tokens. '''
 
         self._get_next_char()
-        while self.lookahead != None:
+        while self.lookahead is not None:
             if self.lookahead in WhitespaceSet:
                 pass
             elif self.lookahead in NumberSet:
